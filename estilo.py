@@ -123,7 +123,7 @@ def marca_lateral():
     img = f'<img src="{logo}" alt="M">' if logo else ""
     st.markdown(f'<div class="marca">{img}<div class="marca-n">Consultora Agrofinanzas</div>'
                 '<div class="marca"><div class="marca-n">Responzable:</div>'
-                '<div class="marca-m">Mg Mauro Magoia</div></div>', unsafe_allow_html=True)
+                '<div class="marca-m">Mtr. Mauro Magoia</div></div>', unsafe_allow_html=True)
 
 
 def lema():
