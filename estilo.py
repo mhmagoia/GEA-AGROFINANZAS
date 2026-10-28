@@ -111,7 +111,7 @@ def cabecera():
     foto = _b64("banner.jpg", "image/jpeg")
     fondo = f'<div class="hero-r" style="background-image:url(\'{foto}\')"></div>' if foto else '<div class="hero-r sin"></div>'
     d = datetime.now(TZ)
-    st.markdown(f'<div class="hero">{fondo}<div class="hero-t">Consultora Agrofinanzas Cooperativa GEA <b>Magoia</b></div>'
+    st.markdown(f'<div class="hero">{fondo}<div class="hero-t">Consultora Agrofinanzas Cooperativa  <b> GEA </b></div>'
                 '<div class="hero-s">Mercados · Finanzas · Agro &nbsp;|&nbsp; Análisis, información y herramientas '
                 'para tomar mejores decisiones</div>'
                 f'<div class="hero-f">Tablero de renta fija, tasas y granos · {d.day} {MESES[d.month - 1]} {d.year}</div></div>',
@@ -122,7 +122,8 @@ def marca_lateral():
     logo = _b64("logo.png", "image/png")
     img = f'<img src="{logo}" alt="M">' if logo else ""
     st.markdown(f'<div class="marca">{img}<div class="marca-n">Consultora Agrofinanzas</div>'
-                '<div class="marca-m">Magoia</div></div>', unsafe_allow_html=True)
+                <div class="marca"><div class="marca-n">Responzable:</div>'
+                '<div class="marca-m">Mg Mauro Magoia</div></div>', unsafe_allow_html=True)
 
 
 def lema():
