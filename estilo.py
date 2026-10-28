@@ -1,4 +1,4 @@
-"""Identidad visual de Consultora Agrofinanzas Magoia: CSS (claro y oscuro), íconos SVG, cabecera y marca lateral."""
+"""Identidad visual de Cooperativa Graneros y Elevadores Colon: CSS (claro y oscuro), íconos SVG, cabecera y marca lateral."""
 import base64
 from datetime import datetime
 from pathlib import Path
