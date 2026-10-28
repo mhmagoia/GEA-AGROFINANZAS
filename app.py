@@ -112,7 +112,7 @@ def tablero():
     with st.expander("Estado de las fuentes"):
         for k, v in ESTADO.items():
             st.write(f"{v.replace('✅', 'OK').replace('⚠️', 'Aviso').replace('❌', 'Error')} · {k}")
-    st.caption(f"Última actualización: {datetime.now(TZ):%d/%m/%Y %H:%M:%S} (hora Argentina) · Consultora Agrofinanzas Magoia · Gestión agropecuaria integral")
+    st.caption(f"Última actualización: {datetime.now(TZ):%d/%m/%Y %H:%M:%S} (hora Argentina) · Agrofinanzas Cooperativa Graneros y Elevadores de Colon · Gestión agropecuaria integral")
 
 
 tablero()
